@@ -1,0 +1,291 @@
+﻿<html>
+<head>
+<title>FOMALASA - Menu Horizontal</title>
+<style>
+body {
+width: 100%;
+margin: 0;
+height: 100%;
+background-color: #f4faf3;
+font-family: Arial, sans-serif;
+color: #2b2b2b;
+}
+.menu1 ul {
+background-color: #acdba0;
+margin: 0 auto;
+width: 100%;
+padding: 0;
+list-style: none;
+text-align: center;
+border-bottom: 2px solid #7ab56b;
+}
+.menu1 li {
+display: inline-block;
+border-right: 1px solid #87bd79;
+}
+.menu1 li:last-child {
+border-right: none;
+}
+.menu1 li a {
+display: block;
+padding: 12px 15px;
+color: #1a4a14;
+font-weight: 600;
+font-size: 0.9rem;
+text-decoration: none;
+}
+.menu1 li:hover {
+background-color: RGB(135, 189, 121);
+border-right: 1px solid RGB(122, 181, 107);
+}
+.menu1 li:hover a {
+font-weight: 700;
+text-decoration: underline;
+color: #fff;
+}
+.titulo {
+text-align: center;
+padding: 35px 20px 10px;
+border-bottom: 1px solid #c5e8bf;
+}
+.titulo h1 {
+font-size: 2.2rem;
+color: #bf4e8b;
+margin-bottom: 4px;
+}
+.titulo p {
+font-size: 0.82rem;
+color: #666;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+}
+.cuerpo {
+max-width: 860px;
+margin: 28px auto;
+padding: 0 20px 50px;
+}
+.bloque {
+margin-bottom: 32px;
+}
+.bloque h2 {
+font-size: 1.15rem;
+color: #3d7a33;
+margin-bottom: 10px;
+padding-bottom: 6px;
+border-bottom: 2px solid #acdba0;
+}
+.bloque p {
+font-size: 0.96rem;
+line-height: 1.8;
+color: #444;
+margin-bottom: 10px;
+}
+.fechas {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+gap: 11px;
+margin-top: 12px;
+}
+.fecha {
+background: #fff;
+border: 1px solid #c5e8bf;
+border-left: 4px solid #87bd79;
+border-radius: 5px;
+padding: 11px 13px;
+transition: border-left-color 0.2s, box-shadow 0.2s;
+}
+.fecha:hover {
+border-left-color: #3d7a33;
+box-shadow: 0 2px 7px rgba(61,122,51,0.13);
+}
+.fecha-tag {
+display: inline-block;
+font-size: 0.68rem;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 0.07em;
+padding: 2px 6px;
+border-radius: 3px;
+margin-bottom: 6px;
+}
+.fecha-nombre {
+font-size: 0.87rem;
+font-weight: 600;
+color: #2b2b2b;
+line-height: 1.3;
+}
+.ca { background: #dbeafe; color: #1e40af; }
+.cb { background: #fce7f3; color: #9d174d; }
+.cc { background: #fee2e2; color: #991b1b; }
+.cd { background: #fed7aa; color: #9a3412; }
+.ce { background: #ede9fe; color: #5b21b6; }
+.cf { background: #fef9c3; color: #713f12; }
+.cg { background: #ccfbf1; color: #134e4a; }
+.ch { background: #d1fae5; color: #065f46; }
+.reflexion {
+background: #fffde7;
+border: 1px solid #f0e368;
+border-left: 4px solid #d4b800;
+border-radius: 5px;
+padding: 18px 20px;
+margin-top: 12px;
+}
+.reflexion p {
+font-size: 0.96rem;
+line-height: 1.8;
+color: #444;
+margin-bottom: 10px;
+}
+.reflexion p:last-child {
+margin-bottom: 0;
+}
+.actividades {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 9px;
+margin-top: 12px;
+}
+.act {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 3px;
+padding: 14px 6px;
+background: #fff;
+border: 1px solid #c5e8bf;
+border-radius: 5px;
+text-decoration: none;
+color: #2b2b2b;
+font-size: 0.8rem;
+font-weight: 600;
+transition: background-color 0.2s, border-color 0.2s;
+}
+.act:hover {
+background-color: #ecf7ea;
+border-color: #87bd79;
+}
+.act span {
+font-size: 1.35rem;
+font-weight: 700;
+color: #3d7a33;
+line-height: 1;
+}
+.imagen {
+text-align: center;
+margin-top: 22px;
+}
+.imagen img {
+max-width: 100%;
+border-radius: 6px;
+border: 1px solid #c5e8bf;
+}
+footer {
+text-align: center;
+padding: 16px;
+background-color: #acdba0;
+font-size: 0.8rem;
+color: #1a4a14;
+font-weight: 600;
+border-top: 2px solid #87bd79;
+}
+</style>
+</head>
+<body>
+
+<div class="menu1">
+<ul>
+<li><a href="https://docs.google.com/document/d/1RqufI7LGyw7V0-WB3g-CVI4-btHkVRataUpjVoCB7EA/edit?usp=sharing" target="_blank">Actividad 1</a></li>
+<li><a href="https://docs.google.com/document/d/11NEET39ntrxFeHnjrw7oj-cLroigniek03Eeu0Q5iVk/edit?usp=sharing" target="_blank">Actividad 2</a></li>
+<li><a href="https://docs.google.com/document/d/1hRWc8Dt2jO_V4-WM5aZB9tYPR9F0ifwPVtS48_oqHZs/edit?usp=sharing" target="_blank">Actividad 3</a></li>
+<li><a href="https://docs.google.com/document/d/1o08vXK7gu4hRmmmHQxxMAigqAj27-hrKQFn6rq2f7zA/edit?usp=sharing" target="_blank">Actividad 4</a></li>
+<li><a href="https://docs.google.com/document/d/1yEWtLfYBFR6GirL6Db1J-btQaBT4xF940_kEJ7D3iWY/edit?usp=sharing" target="_blank">Actividad 5</a></li>
+<li><a href="https://docs.google.com/document/d/1U0Ah6G_Cvq6Qm1HJ6Faw6XI5NtBKn2y72_sG43D8nVw/edit?usp=sharing" target="_blank">Actividad 6</a></li>
+<li><a href="https://docs.google.com/document/d/1q6ZPVhCJZpmN0_llWVmfVTgSPKYKklk7pMlaWBUvlu0/edit?usp=sharing" target="_blank">Actividad 7</a></li>
+<li><a href="https://docs.google.com/document/d/1mon3-HrEd3U3py5_jOcoMMCGDSU6YdnjZzpiesQhImc/edit?usp=sharing" target="_blank">Actividad 8</a></li>
+<li><a href="Alumnodatos.html" target="_blank">Alumno</a></li>
+</ul>
+</div>
+
+<div class="titulo">
+<h1><b>FOMALASA</b></h1>
+<p>Programa de Fomento a la Salud &mdash; DGETI</p>
+</div>
+
+<div class="cuerpo">
+
+<div class="bloque">
+<h2>Que es FOMALASA</h2>
+<p>El Programa de Fomento a la Salud (FOMALASA) es una iniciativa institucional disenada con la finalidad de promover el bienestar integral, la prevencion de riesgos y el cuidado de la salud fisica, mental y emocional dentro de nuestra comunidad estudiantil. A traves de campanas formativas, talleres y conmemoraciones de dias mundiales, busca sensibilizar a los jovenes sobre problematicas criticas actuales, fomentando un entorno escolar seguro, saludable, inclusivo y consciente.</p>
+<p>Este programa se ha venido implementando de manera prioritaria en el subsistema de la Direccion General de Educacion Tecnologica Industrial (DGETI), con el objetivo de dotar a los estudiantes de bachillerato tecnologico no solo de competencias academicas, sino tambien de habilidades para la vida y herramientas de autocuidado que impacten positivamente en su desarrollo personal.</p>
+</div>
+
+<div class="bloque">
+<h2>Fechas Importantes</h2>
+<div class="fechas">
+<div class="fecha">
+<span class="fecha-tag ca">16-20 Feb</span>
+<div class="fecha-nombre">Lucha contra la Depresion</div>
+</div>
+<div class="fecha">
+<span class="fecha-tag cb">Febrero</span>
+<div class="fecha-nombre">Menstruacion Digna</div>
+</div>
+<div class="fecha">
+<span class="fecha-tag cc">13 Feb</span>
+<div class="fecha-nombre">Dia Mundial del Condon</div>
+</div>
+<div class="fecha">
+<span class="fecha-tag cd">4 Mar</span>
+<div class="fecha-nombre">Dia Mundial de la Obesidad</div>
+</div>
+<div class="fecha">
+<span class="fecha-tag ce">13-30 Abr</span>
+<div class="fecha-nombre">Prevencion de Adicciones</div>
+</div>
+<div class="fecha">
+<span class="fecha-tag cf">6 May</span>
+<div class="fecha-nombre">Contra el Acoso Escolar</div>
+</div>
+<div class="fecha">
+<span class="fecha-tag cg">18 May</span>
+<div class="fecha-nombre">Contra Homofobia y Transfobia</div>
+</div>
+<div class="fecha">
+<span class="fecha-tag ch">29 May</span>
+<div class="fecha-nombre">Dia Mundial sin Tabaco</div>
+</div>
+</div>
+</div>
+
+<div class="bloque">
+<h2>Reflexion Personal</h2>
+<div class="reflexion">
+<p>A mi me beneficia mucho conocer todas estas fechas porque me ayudan a abrir los ojos y a estar mas informada sobre temas de salud, prevencion y convivencia que realmente nos importan a los jovenes. Saber de fechas como el Dia Mundial de la Lucha contra la Depresion (16 al 20 de febrero), el Dia de la Menstruacion Digna, el Dia Mundial del Condon (13 de febrero), el Dia Mundial de la Obesidad (4 de marzo), la Jornada Nacional de Prevencion de Adicciones (13 al 30 de abril), el Dia Internacional contra el Acoso Escolar (6 de mayo), el Dia de la Lucha Contra la Homofobia, Transfobia y Bifobia (18 de mayo) y el Dia Mundial sin Tabaco (29 de mayo), me da las herramientas necesarias para cuidarme y saber como reaccionar o a donde acudir si yo o alguien cercano pasa por un problema.</p>
+<p>En mi vida diaria, todo esto influye en las decisiones que tomo y en como trato a los demas. Me hace pensar mas en mis habitos, en cuidar mi salud fisica y en prestarle atencion a mis emociones para estar bien. Tambien me influye a ser mas empatica y respetuosa en el dia a dia, recordandome la importancia de no discriminar a nadie, apoyar a mis companeros y poner de mi parte para que la escuela sea un lugar seguro, libre de vicios y libre de burlas o violencia.</p>
+</div>
+</div>
+
+<div class="bloque">
+<h2>Actividades Desarrolladas</h2>
+<div class="actividades">
+<a class="act" href="https://docs.google.com/document/d/1RqufI7LGyw7V0-WB3g-CVI4-btHkVRataUpjVoCB7EA/edit?usp=sharing" target="_blank"><span>01</span>Actividad</a>
+<a class="act" href="https://docs.google.com/document/d/11NEET39ntrxFeHnjrw7oj-cLroigniek03Eeu0Q5iVk/edit?usp=sharing" target="_blank"><span>02</span>Actividad</a>
+<a class="act" href="https://docs.google.com/document/d/1hRWc8Dt2jO_V4-WM5aZB9tYPR9F0ifwPVtS48_oqHZs/edit?usp=sharing" target="_blank"><span>03</span>Actividad</a>
+<a class="act" href="https://docs.google.com/document/d/1o08vXK7gu4hRmmmHQxxMAigqAj27-hrKQFn6rq2f7zA/edit?usp=sharing" target="_blank"><span>04</span>Actividad</a>
+<a class="act" href="https://docs.google.com/document/d/1yEWtLfYBFR6GirL6Db1J-btQaBT4xF940_kEJ7D3iWY/edit?usp=sharing" target="_blank"><span>05</span>Actividad</a>
+<a class="act" href="https://docs.google.com/document/d/1U0Ah6G_Cvq6Qm1HJ6Faw6XI5NtBKn2y72_sG43D8nVw/edit?usp=sharing" target="_blank"><span>06</span>Actividad</a>
+<a class="act" href="https://docs.google.com/document/d/1q6ZPVhCJZpmN0_llWVmfVTgSPKYKklk7pMlaWBUvlu0/edit?usp=sharing" target="_blank"><span>07</span>Actividad</a>
+<a class="act" href="https://docs.google.com/document/d/1mon3-HrEd3U3py5_jOcoMMCGDSU6YdnjZzpiesQhImc/edit?usp=sharing" target="_blank"><span>08</span>Actividad</a>
+</div>
+</div>
+
+<div class="imagen">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQskz5SW591IVdKXRq4sKK2tDP1elxL74ttQw&s">
+</div>
+
+</div>
+
+
+</body>
+</html>
